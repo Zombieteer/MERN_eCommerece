@@ -10,8 +10,8 @@ const Rating = ({ rating, text }) => {
                 defaultValue={0}
                 precision={0.1}
                 readOnly
-                starDimension={17}
-                starSpacing={1}
+                starDimension='17'
+                starSpacing='1'
             />
             <span style={{verticalAlign: 'sub'}}>
                 <strong>{text} reviews</strong>
